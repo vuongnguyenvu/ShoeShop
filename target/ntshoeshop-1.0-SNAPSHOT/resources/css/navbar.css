@@ -1,0 +1,248 @@
+
+@media screen and (max-width: 768px) {
+    .col-xs-hidden  {
+        display: none;
+    }
+}
+.fix-top-nav{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    background: black;
+    height: 50px;
+}
+.nav-fixed{
+    float: right;
+}
+.nav-fixed li a{
+    color: #9d9d9d;
+    font-weight: bold;
+}
+.nav-fixed li  a:hover{
+    color: #fff;
+}
+.nav-fixed li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.dropdown-menu.columns-3 {
+     min-width: 100px;
+    padding: 30px 30px;
+    margin-top: 13px;
+}
+.header-inner{
+    margin-top: 50px;
+    background: #fff;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-nav > li {
+    margin: 0 9px;
+}
+.navbar-nav > li > a {
+    padding: 15px 16px;
+}
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-nav > li > a {
+    line-height: inherit;
+}
+a.nav-stylehead {
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 15px;
+}
+.navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    color: #FF5722;
+}
+ .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FF5722;
+}
+ .navbar-nav > li > a {
+    color: #000;
+}
+.agile_short_dropdown {
+    border-radius: 0;
+    background: #ffffff;
+    text-align: center;
+	padding:0;
+	border: none;
+}
+.agile_short_dropdown li a {
+    color: #545454;
+    font-size: 13px;
+    padding: .8em 0;
+    border-bottom: 1px solid #ececef;
+    letter-spacing: 1px;
+}
+.agile_short_dropdown > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color:#FF5722;
+}
+
+
+.multi-gd-img img {
+    margin-top: 60px;
+}
+/*-- navigation-dropdown --*/
+ul.multi-column-dropdown li {
+    list-style-type: none;
+    line-height: 2.5em;
+}
+ul.multi-column-dropdown li a {
+    text-decoration:none;
+    font-size: 0.9em;
+    color: #545454;
+    letter-spacing: 1px;
+}
+ul.multi-column-dropdown li a:hover{
+	color:#FF5722;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #FF5722;
+}
+/*-- //navigation-dropdown --*/
+/* //navigation */
+/*-- cart details--*/
+ul.multi-column-dropdown {
+    padding: 0px 30px;
+    /* margin-top: 10px; */
+}
+.dropdown-menu.columns-3 {
+   min-width: 300px;
+    padding: 30px 30px;
+}
+
+.multi-gd-img img{
+	width:100%;
+}
+.agile_short_dropdown{
+    min-width: 150% !important;
+    left: 0 !important;
+}
+/*logo*/
+.logo-shoeshop{
+    padding: 10px;
+    text-align: center;
+   
+}
+.logo-shoeshop a{
+   
+    color: gray;
+}
+/*end logo*/
+/*shopping cart*/
+.cart-shoes{
+    padding-top: 10px;
+        margin-top: 10px;
+    text-align: center;
+}
+.icon-shopingcart{
+    font-size: 26px;
+    padding: 5px 10px;
+    border-radius: 50% 50%;
+    background: red;
+    color: #fff;
+}
+.quantity-cart-items{
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    font-weight: bold;
+}
+.cart-items{
+    font-size: 25px;
+    top: 6px;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 7px;
+    background: red;
+    position: relative;
+}
+/*end shopping cart*/
+
+/*seach*/
+form.example{
+    text-align: center;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #C82E31;
+}
+
+
+.agileits_search {
+        text-align: center;
+}
+
+/*-- //search --*/
+/*top selling products*/
+.banner-top-product{
+    background: #eeeeec;
+}
+
+.banner-top-selling {
+    text-align: center;
+} 
+.banner-top-selling  img{
+    max-height: 200px;
+}
+/*end top selling product*/
+/*content topselling*/
+/*navbar*/
+/*.dropdown:hover .dropdown-menu {
+  display: block;
+}*/
+/*end navber*/
+.heading-tittle{
+    text-align: center;
+/*    font-size: 30px;*/
+    padding: 10px;
+}
+.heading-tittle  h3{
+    padding-bottom: 0px !important;
+}
+
+.btn-add-cart{
+    width: 100%;
+}
+.simpleCart_shelfItem{
+    margin-bottom: 20px;
+}
+.info-product-price{
+    padding: 0;
+}
+.men-thumb-item > img{
+    width: 100%;
+    
+}
+/*end content top selling*/

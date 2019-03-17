@@ -1,0 +1,273 @@
+body{
+    background: #eeeeec;
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*product details content*/
+.product-detail-content{
+    background: #fff;
+    padding-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.show-more-product{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .show-more-product  {
+        display: none;
+    }
+}
+.detail-more{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #fff;
+}
+
+.product-details .product-price{
+    color: red;
+    margin: 20px 0;
+}
+.product-color{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product-size{
+    margin-top: 10px;
+}
+/*horizontal inline*/
+.product-color ul{
+    list-style: none;
+}
+.product-color form{
+    display: inline;
+}
+.product-size ul{
+    list-style: none;
+}
+.product-size li{
+    display: inline;
+}
+
+/*end horizontal inline*/
+
+.product-color-detail, .product-size-detail{
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*submit add to cart*/
+.btn-add-cart{
+
+    width: 100%;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    border: 1px solid;
+}
+/*end submit add to cart*/
+/*end product details content*/
+/*product content*/
+.seach-price{
+    display: flex;
+    padding: 10px 0px;
+}
+.seach-price a:link{
+    color: red;
+}
+.free-space-category{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*end product content*/
+/*cart manager*/ 
+.cart-manager{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+     
+}
+.btn-delete-cart{
+   text-align: right; 
+}
+.toal-price{
+    text-align: right;
+}
+
+/*    remove up/down arrow input number*/
+.item-quantity::-webkit-inner-spin-button, 
+.item-quantity::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/*end cart manager*/ 
+/*ratting*/
+.rating-col-sm{
+    margin-top: 60px;
+}
+@media screen and (max-width: 768px) {
+    .rating-col-sm{
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+}
+
+
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+.rating {
+    border: none;
+    float: left;
+    margin-left: 40px;
+}
+.rating > input {
+    display: none;
+}
+.rating > label:before {
+    margin: 5px;
+    font-size:20px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating > label {
+    color: #ddd;
+    float: right !important;
+    margin: 0 !important;
+}
+
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #3EB51D;
+}
+
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+    color: #92EA70;
+}
+/*view ratring*/
+/* Three column layout */
+.side {
+    float: left;
+    width: 10%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 65%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
+.div-ratting{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 96%;
+    margin: 2%;
+}
+
+.table-rating  td{
+    padding: 20px;
+    
+}
+/*end view rating*/
+/*end ratting*/
+
+/*comment product*/
+#user-comment-product ul li {
+    list-style-type: none;
+}
+.comment-product{
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 0;
+    margin: 2%;
+    background: #eeeeec;
+    width: 96%;
+}
+.user-comment{
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
+    width: 100%;
+}
+/*=======================*/
+
+/*end comment Product*/
+.div-bottom{
+    margin-bottom: 20px;
+}
+.custom-info{
+    margin-bottom: 10px;
+}
+/*login form*/
+.login-form{
+    width: 50%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    min-width: 300px;
+}
+/*end login form*/
